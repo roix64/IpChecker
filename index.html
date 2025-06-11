@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">./ip.roix.cc >> home</div>
+        </header>
+
+        <div class="content-wrapper">
+            <main>
+                <h1>Your IP Information</h1>
+                
+                <div class="ip-box">
+                    <h2>IPv4 Address</h2>
+                    <div id="ipv4-address" class="ip-address">Checking...</div>
+                    <div class="indicator" id="ipv4-indicator"></div>
+                </div>
+
+                <div class="ip-box">
+                    <h2>IPv6 Address</h2>
+                    <div id="ipv6-address" class="ip-address">Checking...</div>
+                    <div class="indicator" id="ipv6-indicator"></div>
+                </div>
+
+                <div class="ip-box">
+                    <h2>Connection Details</h2>
+                    <div id="details" class="details">
+                        <div id="user-agent">User Agent: Checking...</div>
+                        <div id="location">Location: Checking...</div>
+                        <div id="isp">ISP: Checking...</div>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="cat-container">
+                <h2>Random Cats</h2>
+                <div class="cat-images">
+                    <div class="cat-box">
+                        <img id="cat1" src="" alt="Random Cat">
+                    </div>
+                    <div class="cat-box">
+                        <img id="cat2" src="" alt="Random Cat">
+                    </div>
+                    <div class="cat-box">
+                        <img id="cat3" src="" alt="Random Cat">
+                    </div>
+                </div>
+                <button id="refresh-cats">New Cats</button>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Check your IP information safely and securely.</p>
+            <p><a href="javascript:void(0)" id="refresh-button">Refresh</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
